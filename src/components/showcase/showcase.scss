@@ -1,0 +1,54 @@
+.all_showcase {
+  background-image: url(../../assets/showcase.png);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 87.06px;
+    color: #fff;
+    width: 45%;
+    margin-top: 30px;
+  }
+}
+
+.showcase__bottom {
+  width: 700px;
+  margin-top: 60px;
+  height: 66px;
+  background: #ff7a1b;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 40px;
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 23.37px;
+    color: #fff;
+  }
+}
+
+// bottom showcase
+
+.showcase__bottom-card > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .bottom__card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17.71px;
+      letter-spacing: -0.015em;
+      color: #2d170c;
+    }
+  }
+}
