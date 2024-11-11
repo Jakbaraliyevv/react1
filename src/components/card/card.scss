@@ -1,0 +1,116 @@
+.card__top {
+  padding-bottom: 40px;
+  h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: #000;
+    padding-bottom: 20px;
+  }
+  .card__links {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background: #f9f8f3;
+    padding: 20px;
+    a {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 21.6px;
+      color: #898989;
+    }
+  }
+}
+
+.card__bottom {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  .card {
+    width: 311px;
+    padding: 15px;
+
+    height: auto;
+    border: 1px;
+    border: 1px solid #e8e8e8;
+    .card__img {
+      img {
+        width: 100%;
+      }
+    }
+
+    .card__text {
+      .txt_p {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        color: #000;
+        margin-top: 10px;
+      }
+
+      .dashed {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 13px;
+        p {
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 15.6px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .btn__left {
+    .h3 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26.4px;
+      color: #ff3838;
+    }
+    .nimadr__top {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      button {
+        width: 37px;
+        height: 16.53px;
+        background: #ffd634;
+        font-size: 11.02px;
+        font-weight: 400;
+        line-height: 13.23px;
+        color: #000;
+      }
+    }
+  }
+
+  .btn__right {
+    button {
+      width: 131px;
+      height: 51px;
+      border-radius: 5px;
+      border: 1px;
+      background: #ffd634;
+      border: 1px solid #ffd634;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.2px;
+      color: #000;
+    }
+  }
+}
+
+.icon {
+  color: #ff7a1b;
+}

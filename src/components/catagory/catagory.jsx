@@ -5,6 +5,7 @@ import imgsvg3 from "../../assets/uy3.jpg";
 import imgsvg4 from "../../assets/uy4.jpg";
 import imgsvg5 from "../../assets/uy5.jpg";
 import imgsvg6 from "../../assets/uy6.jpg";
+
 function Catagory() {
   return (
     <dir className="catogr">
